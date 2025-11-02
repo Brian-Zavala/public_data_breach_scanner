@@ -1,4 +1,4 @@
-# 🚀 Ultra Breach Reconnaissance System
+# Ultra Breach Reconnaissance System
 
 <div align="center">
 
@@ -10,17 +10,17 @@
 
 Scan every digital corner to find where your data has been compromised
 
-[Features](#features) • [Installation](#installation) • [Quick Start](#quick-start) • [Usage](#usage) • [FAQ](#faq)
+**[Quick Start](#quick-start)** • **[Usage](#usage)** • **[Troubleshooting](#troubleshooting)** • **[FAQ](#faq)**
 
 </div>
 
 ---
 
-## 📖 What Does This Do?
+## What Does This Do?
 
 Ultra Breach Reconnaissance System is an automated security tool that checks if your personal information has been exposed in data breaches across the internet. It combines multiple data sources and OSINT techniques to give you a complete picture of your digital footprint.
 
-### 🎯 Key Capabilities
+### Key Capabilities
 
 - **Breach Detection**: Checks emails against Have I Been Pwned's database of 12+ billion compromised accounts
 - **Password Verification**: Securely checks if your passwords have been leaked (using k-anonymity)
@@ -31,7 +31,7 @@ Ultra Breach Reconnaissance System is an automated security tool that checks if 
 - **Dark Web Monitoring**: Provides guidance for checking dark web marketplaces
 - **Risk Assessment**: Calculates an overall risk score with actionable recommendations
 
-## ✨ Features
+## Features
 
 ### Automated Checks
 
@@ -59,7 +59,7 @@ Ultra Breach Reconnaissance System is an automated security tool that checks if 
 - 📄 Exportable reports (TXT, CSV, JSON)
 - 🔄 Comparison with previous scans
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -97,7 +97,7 @@ The Have I Been Pwned API requires a key for breach and paste checks:
 
 **Note**: Password checks work WITHOUT an API key using the free Pwned Passwords API.
 
-## 📚 Usage
+## Usage
 
 ### Basic Scan
 
@@ -137,7 +137,7 @@ The script will guide you through an interactive setup:
 # Delete ~/.ultra_breach_scan/cache/
 ```
 
-## 📁 Output
+## Output
 
 Results are saved to `~/.ultra_breach_scan/`:
 
@@ -149,7 +149,7 @@ Results are saved to `~/.ultra_breach_scan/`:
 └── report_[scan_id].txt       # Human-readable report
 ```
 
-## 🔐 Privacy & Security
+## Privacy & Security
 
 ### What We Send
 
@@ -177,7 +177,7 @@ Route all traffic through Tor for additional anonymity:
 - Files are chmod 600 (read/write for owner only)
 - No cloud uploads or external logging
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### "Network Error" for HIBP Checks
 
@@ -232,7 +232,7 @@ mkdir -p ~/.ultra_breach_scan
 chmod 700 ~/.ultra_breach_scan
 ```
 
-## 🎨 Example Output
+## Example Output
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -246,7 +246,7 @@ chmod 700 ~/.ultra_breach_scan
 ╚══════════════════════════════════════════════════════════════════╝
 
 Risk Score: 67/100
-[████████████████████████████████████░░░░░░░░░] HIGH RISK
+[████████████████████████████████████░░░░░░░░░░░░░░] HIGH RISK
 
 EXPOSURE SUMMARY
 ────────────────────────────────────────────────────────────────────
@@ -268,7 +268,7 @@ RECOMMENDED ACTIONS
   → Review account statements regularly
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -288,7 +288,7 @@ Contributions are welcome! Here's how you can help:
 - Integration with password managers
 - More detailed reporting options
 
-## 📋 FAQ
+## FAQ
 
 ### Q: Is this tool free?
 
@@ -326,7 +326,7 @@ Contributions are welcome! Here's how you can help:
 
 **A**: No. All results are stored locally in `~/.ultra_breach_scan/`. The only data sent externally is to the HIBP API (for breach checks) and public websites (for username checks).
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool is for **educational and personal security purposes only**.
 
@@ -336,17 +336,17 @@ This tool is for **educational and personal security purposes only**.
 - Results are based on publicly available data and may not be 100% complete
 - This tool does not guarantee protection against identity theft
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Have I Been Pwned](https://haveibeenpwned.com) by Troy Hunt
 - [Sherlock Project](https://github.com/sherlock-project/sherlock) for username enumeration inspiration
 - The open-source security community
 
-## 📧 Contact
+## Contact
 
 - **Author**: Brian Zavala
 - **Location**: Victoria, TX
